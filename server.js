@@ -20,14 +20,19 @@ app.use(methodOverride('_method'))
 // app.use(partsController)
 
 //Routes
-//Welcome
+//Home
 app.get('/', (req, res) => {
-  res.render('welcome.ejs')
+  res.render('index.ejs')
 })
 
-//About
-app.get('/about', (req, res) => {
-  res.render('about.ejs')
+//Projects
+app.get('/projects', (req, res) => {
+  res.render('projects.ejs')
+})
+
+//Resume
+app.get('/resume', (req, res) => {
+  res.render('resume.ejs')
 })
 
 //Listener
