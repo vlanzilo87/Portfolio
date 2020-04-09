@@ -1,6 +1,5 @@
 //Dependencies
 const express = require('express')
-
 const mongoose = require('mongoose')
 const methodOverride = require('method-override')
 
@@ -22,7 +21,12 @@ app.use(methodOverride('_method'))
 //Routes
 //Home
 app.get('/', (req, res) => {
-  res.render('index.ejs')
+  res.render('home.ejs')
+})
+
+//Resume
+app.get('/resume', (req, res) => {
+  res.render('resume.ejs')
 })
 
 //Projects
@@ -30,9 +34,9 @@ app.get('/projects', (req, res) => {
   res.render('projects.ejs')
 })
 
-//Resume
-app.get('/resume', (req, res) => {
-  res.render('resume.ejs')
+//GitHub
+app.get('/github', (req, res) => {
+  res.render('github.ejs')
 })
 
 //Listener
@@ -42,5 +46,5 @@ app.listen(PORT, () => {
 
 //Mongoose
 mongoose.connect(mongoURI, {useNewUrlParser:true, useUnifiedTopology:true}, () => {
-  console.log('the connection with mongod is established')
+  console.log('connected to mongodb')
 })

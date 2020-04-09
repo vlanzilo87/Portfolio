@@ -1,21 +1,28 @@
 body {
-  background: lightblue;
+  background: #00a3cc;
+  height: 100%;
+  position: relative;
 }
 
 header {
-  background: purple;
+  background: navy;
 }
 
 h1 {
   text-align: center;
-  color: lime;
-  font-family: 'Faster One', monospace;
+  color: #000033;
+  background-color: #00a3cc;
+  font-family: 'Righteous', cursive;
+  margin: 20px;
+  padding: 10px;
+  border: 5px solid lightgrey;
 }
 
 h2 {
   text-align: center;
-  color: darkblue;
-  font-family: 'Faster One', monospace;
+  color: #000033;
+  font-family: 'Righteous', cursive;
+  margin-top: 20px;
 }
 
 h4 {
@@ -23,17 +30,33 @@ h4 {
 }
 
 nav {
-  background: purple;
+  background: navy;
   padding: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  font-family: 'Faster One', monospace;
+  font-family: 'Righteous', cursive;
 }
 
 img {
-  border-radius: 20%;
-  border: 5px solid lime;
+  border-radius: 10%;
+  border: 3px solid lightgrey;
+  height: 200px;
+  width: 300px;
+  max-width: 100%;
+}
+
+.myphoto {
+  border-radius: 10%;
+  border: 3px solid lightgrey;
+  height: 300px;
+  width: 230px;
+  max-width: 100%;
+}
+
+.photo {
+  text-align: center;
+  padding-top: 20px;
 }
 
 .new {
@@ -42,16 +65,9 @@ img {
   font-size: 20px;
 }
 
-.welcome {
-  background-image: url("https://pbs.twimg.com/media/C5tREVBU8AA7sZH.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-
 .enter {
   text-align: center;
-  font-family: 'Faster One', monospace;
+  font-family: 'Righteous', cursive;
 }
 
 .big-container {
@@ -71,42 +87,74 @@ img {
 } */
 
 .banner {
-  background: url("https://ricardoe30.files.wordpress.com/2010/12/cropped-e30-banner1.jpg");
+  background-image: url("https://jj09.net/wp-content/uploads/2015/11/developer.png");
+  background-position: center;
   text-align: center;
   margin: 0 auto;
-  padding: 120px;
-  background-size: cover;
-  background-position: center;
-  font-family: 'Faster One', monospace;
+  padding: 60px;
+  font-family: 'Righteous', cursive;
 }
 
 #new {
-  font-family: 'Faster One', monospace;
+  font-family: 'Righteous', cursive;
 }
 
 #edit {
-  font-family: 'Faster One', monospace;
+  font-family: 'Righteous', cursive;
 }
 
 footer {
   text-align: center;
-  background: purple;
+  background: navy;
   color: white;
-  padding-top: 20px;
-  bottom: 0;
+  padding: 15px;
   position: absolute;
+  bottom: 0;
   width: 100%;
   font-family: monospace;
   font-size: 15px;
 }
 
 .paragraph {
-  margin: 20px 100px;
-  padding: 10px;
-  border: 10px solid lime;
+  margin: 20px;
+  padding-top: 10px;
+  border: 5px solid lightgrey;
   color: lightgrey;
-  background-color: purple;
-  font-family: monospace;
+  background-color: #000033;
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+.paragraphresume {
+  margin: 20px 500px;
+  padding: 20px;
+  border: 5px solid lightgrey;
+  color: lightgrey;
+  background-color: #000033;
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+.paragraphprojects {
+  margin: 20px 500px;
+  padding: 20px;
+  border: 5px solid lightgrey;
+  color: lightgrey;
+  background-color: #000033;
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+.paragraphgithub {
+  margin: 20px 500px;
+  padding: 20px;
+  border: 5px solid lightgrey;
+  color: lightgrey;
+  background-color: #000033;
+  font-family: 'Righteous', cursive;
   font-size: 20px;
   text-align: center;
 }
@@ -115,7 +163,7 @@ footer {
   position: relative;
   padding-bottom: 100px;
   text-align: center;
-  font-family: 'Faster One', monospace;
+  font-family: 'Righteous', cursive;
   font-size: 20px;
 }
 
@@ -126,7 +174,15 @@ footer {
 }
 
 .list {
-  font-family: 'Faster One', monospace;
+  font-family: 'Righteous', cursive;
   font-size: 30px;
   color: red;
+}
+
+.main {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px;
 }
