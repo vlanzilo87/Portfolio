@@ -9,13 +9,13 @@ header {
 }
 
 h1 {
-  text-align: center;
   color: #000033;
   background-color: #00a3cc;
   font-family: 'Righteous', cursive;
   margin: 20px;
   padding: 10px;
   border: 5px solid lightgrey;
+  text-align: center;
 }
 
 h2 {
@@ -88,11 +88,9 @@ img {
 
 .banner {
   background-image: url("https://jj09.net/wp-content/uploads/2015/11/developer.png");
-  background-position: center;
-  text-align: center;
-  margin: 0 auto;
   padding: 60px;
   font-family: 'Righteous', cursive;
+  align-content: center;
 }
 
 #new {
