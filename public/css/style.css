@@ -16,8 +16,6 @@ h1 {
   padding: 10px;
   border: 5px solid lightgrey;
   text-align: center;
-  width: 50%;
-  margin: auto;
 }
 
 h2 {
@@ -123,8 +121,6 @@ footer {
   font-family: 'Righteous', cursive;
   font-size: 20px;
   text-align: center;
-  width: 50%;
-  margin: auto;
 }
 
 .paragraphresume {
@@ -136,8 +132,6 @@ footer {
   font-family: 'Righteous', cursive;
   font-size: 20px;
   text-align: center;
-  width: 50%;
-  margin: auto;
 }
 
 .paragraphprojects {
@@ -149,8 +143,6 @@ footer {
   font-family: 'Righteous', cursive;
   font-size: 20px;
   text-align: center;
-  width: 50%;
-  margin: auto;
 }
 
 .paragraphgithub {
@@ -162,8 +154,6 @@ footer {
   font-family: 'Righteous', cursive;
   font-size: 20px;
   text-align: center;
-  width: 50%;
-  margin: auto;
 }
 
 .show {
