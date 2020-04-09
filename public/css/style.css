@@ -16,6 +16,8 @@ h1 {
   padding: 10px;
   border: 5px solid lightgrey;
   text-align: center;
+  width: 50%;
+  margin: auto;
 }
 
 h2 {
@@ -90,7 +92,6 @@ img {
   background-image: url("https://jj09.net/wp-content/uploads/2015/11/developer.png");
   padding: 60px;
   font-family: 'Righteous', cursive;
-  align-content: center;
 }
 
 #new {
@@ -115,13 +116,15 @@ footer {
 
 .paragraph {
   margin: 20px;
-  padding-top: 10px;
+  padding: 10px;
   border: 5px solid lightgrey;
   color: lightgrey;
   background-color: #000033;
   font-family: 'Righteous', cursive;
   font-size: 20px;
   text-align: center;
+  width: 50%;
+  margin: auto;
 }
 
 .paragraphresume {
@@ -133,6 +136,8 @@ footer {
   font-family: 'Righteous', cursive;
   font-size: 20px;
   text-align: center;
+  width: 50%;
+  margin: auto;
 }
 
 .paragraphprojects {
@@ -144,6 +149,8 @@ footer {
   font-family: 'Righteous', cursive;
   font-size: 20px;
   text-align: center;
+  width: 50%;
+  margin: auto;
 }
 
 .paragraphgithub {
@@ -155,6 +162,8 @@ footer {
   font-family: 'Righteous', cursive;
   font-size: 20px;
   text-align: center;
+  width: 50%;
+  margin: auto;
 }
 
 .show {
