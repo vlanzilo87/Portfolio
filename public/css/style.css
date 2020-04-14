@@ -46,6 +46,12 @@ img {
   max-width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  img {
+    width: 200px;
+  }
+}
+
 .myphoto {
   border-radius: 10%;
   border: 3px solid lightgrey;
@@ -89,14 +95,6 @@ img {
 .banner {
   background-image: url("https://jj09.net/wp-content/uploads/2015/11/developer.png");
   padding: 60px;
-  font-family: 'Righteous', cursive;
-}
-
-#new {
-  font-family: 'Righteous', cursive;
-}
-
-#edit {
   font-family: 'Righteous', cursive;
 }
 
@@ -154,26 +152,6 @@ footer {
   font-family: 'Righteous', cursive;
   font-size: 20px;
   text-align: center;
-}
-
-.show {
-  position: relative;
-  padding-bottom: 100px;
-  text-align: center;
-  font-family: 'Righteous', cursive;
-  font-size: 20px;
-}
-
-.edit {
-  text-align: center;
-  font-family: monospace;
-  font-size: 20px;
-}
-
-.list {
-  font-family: 'Righteous', cursive;
-  font-size: 30px;
-  color: red;
 }
 
 .main {
